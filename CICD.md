@@ -6,8 +6,8 @@
 3. CI puts a great emphasis on testing automation to check that the application is not broken whenever new commits are integrated into the main branch.
 
 **Continous Deployment**
-**Defination** :- The practice of automatically releasing changes to production once they pass automated tests and quality checks.
-**For Whom ?** :- Organizations that release new features on a daily and hourly basis.
+- **Defination** :- The practice of automatically releasing changes to production once they pass automated tests and quality checks.
+- **For Whom ?** :- Organizations that release new features on a daily and hourly basis.
 **Automation Effort** :- Requires a high degree of automation to ensure that changes are automatically deployed to production **without human intervention.**
 **Release Frequency** :- Frequently, often multiple times a day.
 **Scope of Deployment **:- Entire application or system.
