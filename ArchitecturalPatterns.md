@@ -45,3 +45,18 @@ Drawbacks:-
 - Complex communication management between clients and server.
 - Potential single point of failure if the server goes down.
 
+**3. Microservices Pattern**
+
+intent :- Structures applications as a collection of small, independently deployable services, enabling scalability and rapid development. Common in cloud-based systems.
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/c52b35db-3c37-4a5b-ae37-593a1c59f7e0)
+
+Use Cases:- 
+- E-commerce Marketplace: Different microservices handle user management, product catalog, payments, and order processing.
+- Ride-Sharing Application: Separate services manage user authentication, ride requests, driver tracking, and payments.
+- Streaming Platform: Microservices for content delivery, user profiles, recommendations, and billing.
+
+Drawbacks:- 
+- Complexity in managing distributed architecture.
+- Challenges in ensuring data consistency across services.
+- Communication overhead between services can impact performance.
