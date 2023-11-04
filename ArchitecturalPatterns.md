@@ -29,4 +29,19 @@ Drawbacks:-
 - Tight Coupling risks if layer boundries aren't well defined.
 - May become more complex with more layers.
 
-- 
+**2. Client-Server Pattern**
+
+Intent :- Separates application into clients (user interfaces) and servers (data processing) to manage data sharing and user interactions. Ideal for distributed systems like web-based services.
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/81347107-e2cf-4bb9-a4c3-30041f93fdd0)
+
+Use Cases:- 
+- Email System: Allows clients to send requests for retrieving or sending emails to a central server.
+- Online Gaming: Clients interact with a central server for real-time game updates and multiplayer interactions.
+- Remote File Storage: Clients access a server to store and retrieve files securely from a remote location.
+
+Drawbacks:- 
+- Server scalability challenges during heavy traffic periods.
+- Complex communication management between clients and server.
+- Potential single point of failure if the server goes down.
+
