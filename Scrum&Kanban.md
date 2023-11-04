@@ -23,3 +23,6 @@ Agile is a methodology based on:-
   2. **Inspection** - ensures that teams prioritize tasks and that the product is of high quality. Events like Sprint Reviews         support this pillar. This pillar requires flexibility and collaboration between the team and the customer to ensure the        best possible product.
   3. **Adaptation** - is apparent across all Scrum events. It focuses on one of the main aspects of being Agile, which is to          always be flexible to accommodate the project and customers’ needs. Any changes identified in the Inspection pillar            should be accommodated during Adaptation, with continued flexibility and collaboration between the team and the customer.
 
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/4dbef9f4-1577-4c11-b77e-6aa2b9b4019b)
+
+<u>**Kanban**</u>
