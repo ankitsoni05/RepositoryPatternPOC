@@ -25,4 +25,20 @@ Agile is a methodology based on:-
 
 ![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/4dbef9f4-1577-4c11-b77e-6aa2b9b4019b)
 
-<u>**Kanban**</u>
+**Kanban**
+    1. Kanban comes from the Japanese word Kamban, which means signboard is a visual system that is used for managing work         as it goes through the process
+    2. The main focus of Kanban is transparency.
+    3. With the help of the Kanban board it is very easily possible to determine bottlenecks and then fix them in cost 
+        cost-effective manager and at optimal speed.
+    4. Since everything is on board everyone can keep themselves updated, it also ensures the team focus on their current          task until it's done.
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/ccf67755-b1f5-43db-bc3a-ed9d97bf3c56)
+
+**How Scrum and Kanban are Similar?**
+	1. Lean & Agile:- This means waste reduction and both are time-boxed and iterative approaches that enable product delivery in an incremental manner.
+	2. Reduce Work In Progress:-  This forces the team to ensure that they focus on a smaller set of tasks, this also makes blockers and bottlenecks a little bit more visible.
+	3. The Work is broken into Pieces: The work is divided into smaller, more manageable units.
+	4. Both use Pull Scheduling means products are built more on demands rather than on forecasts.
+	5. Transparency drives process improvement:-
+	6. The Release Plan is optimized continuously:- 
+	7. Releasable software is delivered often and earlier:-
