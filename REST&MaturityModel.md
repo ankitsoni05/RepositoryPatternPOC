@@ -66,3 +66,45 @@ It is a key constraint that differentiate between a REST API and Non-REST API. I
 4. **DELETE**: Delete an existing resource on the server specified by the request URI. It always return an appropriate HTTP status for every request.
 5. **GET, PUT, DELETE** methods are also known as Idempotent methods. Applying an operation once or applying it multiple times has the same effect. Example: Delete any resource from the server and it succeeds with 200 OK and then try again to delete that resource than it will display an error message 410 GONE.
 
+**Richardson Maturity Model for REST API's**
+How will you identify how much RESTful your API is ?
+Thy way to identity how much our API's are restful or how to make our APIs more restful that it was till now, this is where Richardson's Maturity model comes in.
+This describes APIs into 3 categories are below.
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/968e8bfd-36c9-4192-ac1e-a387845b125c)
+
+Bases on these 3 categories,  this model categorizes APIs into 4 levels
+Level 0 to Level 3
+
+**Level 0 :- Swamp Of POX (Plain Old XML Object) -  Not at all Restful.**
+1. 1 URI
+2. Single HTTP Verb POST
+3. Request body has all the details to take ACTION
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/a4fde304-d5dd-4a6f-a27c-9c3e9fe4cd99)
+
+**Level 1 :- Resources**
+
+1. Makes use of multiple URI's
+2. Single HTTP Verb - POST
+3. If we have multiple URIs for different actions and uses a single verb all the time let's say POST then those APIs are falling Under Level 1.
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/fea27404-3c55-4a3e-8156-024b3ade8b7d)
+
+**Level 2 :- HTTP Verbs**
+
+1. Makes use of multiple URIs
+2. Appopriate http Verbs - GET, POST, PUT, DELETE
+3. makes right use of response code.
+
+**Level 3 :- Hypermedia controls. (Everything till level 2 Plus HATEOAS)**
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/1e239ea7-6394-400d-a226-f54068f0ab87)
+
+
+So, If APIs incorporate all the above 3 then we can call that our API's are fully restful.
+
+Summary :- 
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/d666a258-a868-4158-8b86-504901c0c843)
+
