@@ -60,3 +60,25 @@ Drawbacks:-
 - Complexity in managing distributed architecture.
 - Challenges in ensuring data consistency across services.
 - Communication overhead between services can impact performance.
+
+**4. Monolithic Architecture:**
+intent:- An older approach where all components of an application are tightly integrated into a single codebase and are deployed together. While less common now, it’s still seen in some legacy systems.
+
+use Cases:- 
+- Small to Medium Web Applications: Simplicity can be an advantage for projects with limited complexity.
+- Rapid Prototyping: Quick development and deployment for initial versions of software.
+- Legacy Systems: Existing monolithic applications that have been in use for years.
+
+Drawbacks:-
+- Limited scalability, as the entire application must be scaled.
+- Difficulty in maintaining and updating due to tight coupling.
+- Deployment of updates can be riskier.
+
+**5. Model-View-Controller (MVC)**
+Intent:- MVC is an architecture pattern that stands for Model View Controller. We could say the MVC architecture is like a simplification of the layers architecture, incorporating the front-end side (UI) of the application as well.
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/f54ad752-0fc5-4f50-be61-f6913bdc2199)
+
+
+![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/16d3a573-6bf5-4190-b608-3c41d7133b60)
+
