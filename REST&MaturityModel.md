@@ -48,7 +48,6 @@ It is a key constraint that differentiate between a REST API and Non-REST API. I
 - Each layer doesn’t know any thing about any layer other than that of immediate layer and there can be lot of intermediate servers between client and the end server.
 - Intermediary servers may improve system availability by enabling load-balancing and by providing shared caches.
 
-![image](https://github.com/ankitsoni05/RepositoryPatternPOC/assets/17673742/0b2bcc3b-d46c-4db1-96f9-f4d605381c20)
 
 
 **6. Code On Demand (COD)**
